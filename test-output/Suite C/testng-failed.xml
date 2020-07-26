@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite C]">
+  <listeners>
+    <listener class-name="listener.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="Test C(failed)">
+    <classes>
+      <class name="suitec.TestC">
+        <methods>
+          <include name="testC"/>
+          <include name="quit"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- suitec.TestC -->
+    </classes>
+  </test> <!-- Test C(failed) -->
+  <test thread-count="5" name="Test CC(failed)">
+    <classes>
+      <class name="suitec.TestCC">
+        <methods>
+          <include name="quit"/>
+          <include name="init"/>
+          <include name="testCC"/>
+        </methods>
+      </class> <!-- suitec.TestCC -->
+    </classes>
+  </test> <!-- Test CC(failed) -->
+</suite> <!-- Failed suite [Suite C] -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite A]">
+  <parameter name="browsergroup1" value="chrome"/>
+  <parameter name="browsergroup2" value="ie"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browsers" value="chrome,mozilla"/>
+  <listeners>
+    <listener class-name="listener.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="Test A(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+        <include name="sanity"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="suitea.TestA">
+        <methods>
+          <include name="quit"/>
+          <include name="testA" invocation-numbers="0 1"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- suitea.TestA -->
+    </classes>
+  </test> <!-- Test A(failed) -->
+</suite> <!-- Failed suite [Suite A] -->

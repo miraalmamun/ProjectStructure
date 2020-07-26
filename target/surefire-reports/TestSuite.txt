@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 15.557 s <<< FAILURE! - in TestSuite
+suitea.TestA.testA  Time elapsed: 0.019 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Titles do not match.,
+	Text not matches,
+	a is not valid
+	at suitea.TestA.testA(TestA.java:27)
+
+suitea.TestA.testA  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: 
+The following asserts failed:
+	Titles do not match.,
+	Text not matches,
+	a is not valid
+	at suitea.TestA.testA(TestA.java:27)
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20844" started-at="2020-06-14T18:10:06 IST" finished-at="2020-06-14T18:10:26 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20844" started-at="2020-06-14T18:10:06 IST" finished-at="2020-06-14T18:10:26 IST">
+      <class name="suitea.SakraWorldTest">
+        <test-method status="PASS" signature="init(org.testng.ITestContext, org.testng.ITestResult)[pri:0, instance:suitea.SakraWorldTest@34cd072c]" name="init" is-config="true" duration-ms="181" started-at="2020-06-14T18:10:06 IST" finished-at="2020-06-14T18:10:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5b94ccbc]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=SakraWorldTest.appointmentTest()[pri:0, instance:suitea.SakraWorldTest@34cd072c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="appointmentTest()[pri:0, instance:suitea.SakraWorldTest@34cd072c]" name="appointmentTest" duration-ms="20201" started-at="2020-06-14T18:10:06 IST" finished-at="2020-06-14T18:10:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appointmentTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:suitea.SakraWorldTest@34cd072c]" name="quit" is-config="true" duration-ms="411" started-at="2020-06-14T18:10:26 IST" finished-at="2020-06-14T18:10:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- suitea.SakraWorldTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
